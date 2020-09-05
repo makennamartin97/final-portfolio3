@@ -33,6 +33,9 @@ import a14 from './projpics/bootstrap.png';
 import a15 from './projpics/dojo-icon.png';
 import a16 from './projpics/git3.png';
 import a17 from './projpics/m8.png';
+import jk1 from './projpics/jk1.png';
+import jk2 from './projpics/jk2.png';
+import jk3 from './projpics/jk3.png';
 
 
 
@@ -209,19 +212,19 @@ export default () => {
                                 </ol>
                                 <div className="carousel-inner">
                                     <div className="carousel-item active">
-                                        <img className="d-block w-100" src={wp} alt="login"/>
+                                        <img className="d-block w-100" src={wp} alt="1"/>
                                     </div>
                                     <div className="carousel-item">
-                                        <img className="d-block w-100" src={wp2} alt="login"/>
+                                        <img className="d-block w-100" src={wp2} alt="2"/>
                                     </div>
                                     <div className="carousel-item">
-                                        <img className="d-block w-100" src={wp3} alt="login"/>
+                                        <img className="d-block w-100" src={wp3} alt="3"/>
                                     </div>
                                     <div className="carousel-item">
-                                        <img className="d-block w-100" src={wp4} alt="login"/>
+                                        <img className="d-block w-100" src={wp4} alt="4"/>
                                     </div>
                                     <div className="carousel-item">
-                                        <img className="d-block w-100" src={wp5} alt="login"/>
+                                        <img className="d-block w-100" src={wp5} alt="5"/>
                                     </div>
                                 </div>
                                 <a className="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -254,16 +257,16 @@ export default () => {
                                 </ol>
                                 <div className="carousel-inner">
                                     <div className="carousel-item active">
-                                        <img className="d-block w-100" src={p2} alt="login"/>
+                                        <img className="d-block w-100" src={p2} alt="1"/>
                                     </div>
                                     <div className="carousel-item">
-                                        <img className="d-block w-100" src={p1} alt="login"/>
+                                        <img className="d-block w-100" src={p1} alt="2"/>
                                     </div>
                                     <div className="carousel-item">
-                                        <img className="d-block w-100" src={p4} alt="login"/>
+                                        <img className="d-block w-100" src={p4} alt="3"/>
                                     </div>
                                     <div className="carousel-item">
-                                        <img className="d-block w-100" src={p3} alt="login"/>
+                                        <img className="d-block w-100" src={p3} alt="4"/>
                                     </div>
 
                                 </div>
@@ -287,7 +290,7 @@ export default () => {
 
                         </div>
                         <div class="col-sm text-center bg-dark quotes">
-                            <h2 className="lead"><u>Quotes App</u></h2>
+                            <h2 className="lead"><u>Show Planner</u></h2>
 
                             <div id="carouselExampleIndicators2" className="carousel slide" data-ride="carousel">
                                 <ol className="carousel-indicators">
@@ -297,10 +300,13 @@ export default () => {
                                 </ol>
                                 <div className="carousel-inner">
                                     <div className="carousel-item active">
-                                        <img className="d-block w-100" src={q} alt="login"/>
+                                        <img className="d-block w-100" src={jk1} alt="1"/>
                                     </div>
                                     <div className="carousel-item">
-                                        <img className="d-block w-100" src={q2} alt="login"/>
+                                        <img className="d-block w-100" src={jk2} alt="2"/>
+                                    </div>
+                                    <div className="carousel-item">
+                                        <img className="d-block w-100" src={jk3} alt="3"/>
                                     </div>
  
                                 </div>
@@ -315,9 +321,8 @@ export default () => {
                             </div>
                             <div className="desc m-3">
                                     <ul>
-                                        <li><h1>Web app created using Python, Django, and MySQL</h1></li>
-                                        <li><h1>Users must register/log in to post, edit, and explore other users quotes as well as add them to their favorites list</h1></li>
-                                        <u><a href="https://github.com/makennamartin97/quote-app-exam.git" ><li><h1>Click here for Github code</h1></li></a></u>
+                                        <li><h1>Login/Registration website created using C#, ASP.Net Core, and MySQL</h1></li>
+                                        <li><h1>Users must register/log in to post, edit, and rsvp to shows and festivals. Users can also see which friends are going to the event.</h1></li>
 
                                     </ul>
                                     

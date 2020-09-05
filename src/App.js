@@ -21,6 +21,9 @@ function App() {
               <a className="nav-link text-light lead" href="/#projects">Projects</a>
             </li>
             <li className="nav-item">
+              <a className="nav-link text-light lead" href="/#contact">Contact</a>
+            </li>
+            <li className="nav-item">
               <Link className="nav-link text-light lead" to="/resume">Resume</Link>
             </li>
             <li className="nav-item">
@@ -28,9 +31,6 @@ function App() {
             </li>
             <li className="nav-item">
               <a className="nav-link text-light lead active" href="https://github.com/makennamartin97">Github</a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link text-light lead" href="/#contact">Contact</a>
             </li>
 
           </div>
