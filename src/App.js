@@ -12,10 +12,10 @@ function App() {
     <div>
       <nav className="navbar navbar-expand-lg navbar-light fixed-top">
         <a className="navbar-brand text-light m-2 lead" href="/#top">Makenna Martin</a>
-        <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
           <span className="navbar-toggler-icon"></span>
         </button>
-        <div className="collapse navbar-collapse" id="collapsibleNavbar">
+        <div className="collapse navbar-collapse" id="collapsibleNavbar" data-toggle="collapse" data-target=".navbar-collapse">
           <div className="navbar-nav">
             <li className="nav-item">
               <a className="nav-link text-light lead" href="/#projects">Projects</a>
