@@ -55,7 +55,7 @@ export default () => {
                 <div className="container">
                 </div>
             </div>
-            <div class="container supporting ">
+            <div className="container supporting ">
                 <img src={a1} alt="pic" />
                 <img src={a2} alt="pic" />
                 <img src={a3} alt="pic" />
@@ -95,9 +95,9 @@ export default () => {
                     
             </div>
             <div className="skills text-light">
-                <div class="container">
-                    <div class="row text-center">
-                        <div class="col-sm text-center">
+                <div className="container">
+                    <div className="row text-center">
+                        <div className="col-sm text-center">
                             <h2 className="lead text-dark"><u>Languages</u></h2>
                             <ul>
                                 <h1>C#</h1>
@@ -106,7 +106,7 @@ export default () => {
                             </ul>
                         </div>
                         
-                        <div class="col-sm text-center">
+                        <div className="col-sm text-center">
                             <h2 className="lead text-dark"><u>Backend</u></h2>
                                 <ul>
                                     <h1>MongoDB</h1>
@@ -116,7 +116,7 @@ export default () => {
                                 </ul>
                         </div>
                         
-                        <div class="col-sm text-center">
+                        <div className="col-sm text-center">
                             <h2 className="lead text-dark"><u>Frameworks/Libraries</u></h2>
                                 <ul>
                                     <h1>.Net Core</h1>
@@ -131,7 +131,7 @@ export default () => {
             </div>
             
 
-            <div class="github ">
+            <div className="github ">
                 <div className="container">
                     <div className="text-center">
                         <h2 >Github Contributions</h2>
@@ -199,9 +199,9 @@ export default () => {
                         </div>
 
                     </div>
-                    <div class="row text-center">
+                    <div className="row text-center">
 
-                        <div class="col-sm text-center text-dark wed ">
+                        <div clasNames="col-sm text-center text-dark wed ">
                             <h2 className="text-light lead"><u><em>Wedding Planner</em></u></h2>
 
                             <div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel">
@@ -247,7 +247,7 @@ export default () => {
                             
                         </div>
                         
-                        <div class="col-sm text-center text-light bg-info pet">
+                        <div className="col-sm text-center text-light bg-info pet">
                             <h2 className="lead text-warning"><u>Pet Shelter</u></h2>
                             <div id="carouselExampleIndicators3" className="carousel slide" data-ride="carousel">
                                 <ol className="carousel-indicators">
@@ -289,7 +289,7 @@ export default () => {
                             </div>
 
                         </div>
-                        <div class="col-sm text-center bg-dark quotes">
+                        <div className="col-sm text-center bg-dark quotes">
                             <h2 className="lead"><u>Show Planner</u></h2>
 
                             <div id="carouselExampleIndicators2" className="carousel slide" data-ride="carousel">
